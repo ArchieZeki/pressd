@@ -1,0 +1,46 @@
+{
+  "project_info": {
+    "project_number": "600707710714",
+    "project_id": "pressd-ce6a4",
+    "storage_bucket": "pressd-ce6a4.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:600707710714:android:d37ee726f31313223f1343",
+        "android_client_info": {
+          "package_name": "com.zeki.pressd.android"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "600707710714-hmkia5j9gu2r3sdfkahg4u128nh8t4sl.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAKpJEbWTBlR-clV7bLjTgQ51oZ6wrzITM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "600707710714-hmkia5j9gu2r3sdfkahg4u128nh8t4sl.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "600707710714-7sloj2al0d650odhba5rrgnsrqvkl0pg.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.zeki.pressd"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
