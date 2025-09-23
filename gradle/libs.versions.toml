@@ -1,12 +1,15 @@
 [versions]
 agp = "8.4.1"
-kotlin = "1.9.20"
+firebaseBom = "34.3.0"
+kotlin = "2.1.0"
 compose = "1.5.4"
 compose-compiler = "1.5.4"
 compose-material3 = "1.1.2"
 androidx-activityCompose = "1.8.0"
 
 [libraries]
+firebase-analytics = { module = "com.google.firebase:firebase-analytics" }
+firebase-bom = { module = "com.google.firebase:firebase-bom", version.ref = "firebaseBom" }
 kotlin-test = { module = "org.jetbrains.kotlin:kotlin-test", version.ref = "kotlin" }
 androidx-activity-compose = { module = "androidx.activity:activity-compose", version.ref = "androidx-activityCompose" }
 compose-ui = { module = "androidx.compose.ui:ui", version.ref = "compose" }

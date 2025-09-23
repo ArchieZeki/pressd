@@ -1,6 +1,8 @@
 plugins {
-    alias(libs.plugins.androidApplication)
+//    alias(libs.plugins.androidApplication)
     alias(libs.plugins.kotlinAndroid)
+    id("com.android.application")
+    id("com.google.gms.google-services")
 }
 
 android {
@@ -44,5 +46,7 @@ dependencies {
     implementation(libs.compose.ui.tooling.preview)
     implementation(libs.compose.material3)
     implementation(libs.androidx.activity.compose)
+    implementation(libs.firebase.bom)
+    implementation(libs.firebase.analytics)
     debugImplementation(libs.compose.ui.tooling)
 }
